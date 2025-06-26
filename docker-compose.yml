@@ -1,0 +1,9 @@
+version: '3.8'  # Define the version of Docker Compose being used.
+
+services:  # Define the services to be created by Docker Compose.
+  angular-app:  # Name of the service.
+    build: .  # Build the Docker image from the Dockerfile in the current directory.
+    container_name: angular-app-container  # Name of the container when running.
+    ports:  # Mapping the container's ports to the host machine's ports.
+      - "5001:80"  # Map port 5001 on the host machine to port 80 in the container.
+    restart: always  # Always restart the container if it stops unexpectedly.
