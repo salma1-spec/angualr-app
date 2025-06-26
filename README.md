@@ -8,7 +8,8 @@ This repository contains an Angular project that can be easily run using Docker.
 
 ### 1. Clone the Repository
 ```sh
-
+git clone https://github.com/salma1-spec/angualr-app.git
+cd angular-app
 
 ### 2. Build the Docker Image
 ```sh
@@ -25,5 +26,3 @@ Open your browser and navigate to:
 ```
 http://localhost:5001
 ```
-git clone 
-cd
